@@ -1,4 +1,4 @@
-﻿// Поиск максимума из 9 с помощью методов и массивов
+﻿// Поиск индекса заданного числа  с помощью методов и массивов
 int[] array = {1,12,13,31,6,8,15,201};
 
 int n = array.Length;
@@ -11,6 +11,7 @@ while(index<n)
     if (array[index] == find)
     {
         Console.WriteLine(index);
+        break;
     }
     //index = index+1;
     index++;
